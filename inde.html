@@ -10,8 +10,327 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/88918fa279.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <header>
+      <!-----------------
+        nav-start 
+         -------------->
+      <section>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+          <div class="container">
+            <div>
+              <a class="navbar-brand" href="#">
+                <img src="images/logo1.png" alt="" />
+              </a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!-----------------
+        nav-end 
+         -------------->
+      <!-- slider-start  -->
+      <section class="container mt-5">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner bg-primary border rounded">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img
+                    src="images/shoes/Group 33092.png"
+                    class="d-block w-100"
+                    alt="nikeshoe"
+                  />
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                  <div>
+                    <h1>
+                      <span>Nike Dynamic</span><br />
+                      <span>DYNAMIC FIT-2</span>
+                    </h1>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+
+                    <button class="btn btn-info">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img
+                    src="images/shoes/shoe-3.png"
+                    class="d-block w-100 mt-5"
+                    alt="nikeshoe"
+                  />
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                  <div>
+                    <h1>
+                      <span>Nike Brown Hard</span><br />
+                      <span>Extrime FS-75</span>
+                    </h1>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+
+                    <button class="btn btn-info">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img
+                    src="images/shoes/shoe-4.png"
+                    class="d-block w-100 mt-5"
+                    alt="nikeshoe"
+                  />
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                  <div>
+                    <h1>
+                      <span>Nike React</span><br />
+                      <span>Infinity Run-2</span>
+                    </h1>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+
+                    <button class="btn btn-info">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- slider-end  -->
+    </header>
+    <main>
+      <!-- products start -->
+      <section class="container mt-5">
+        <!-- shoe sector 1 start  -->
+        <div>
+          <div>
+            <h1>Sneaker Shoes</h1>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- shoe 1 -->
+            <div class="col">
+              <div class="card shadow-lg pb-3">
+                <img
+                  src="images/shoes/shoe-5.jpg"
+                  class="card-img-top"
+                  alt="shoe"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Nike</h1>
+                  <p class="card-text">
+                    This very extra sole of shoe.Sometiome we want a unique
+                    verient for shoe collection
+                  </p>
+                </div>
+                <div class="d-flex justify-content-around">
+                  <h1>$899</h1>
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-cart-shopping m-2"></i>Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-lg pb-3">
+                <img
+                  src="images/shoes/shoe-6.png"
+                  class="card-img-top"
+                  alt="shoe"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Nike</h1>
+                  <p class="card-text">
+                    This very extra sole of shoe.Sometiome we want a unique
+                    verient for shoe collection
+                  </p>
+                </div>
+                <div class="d-flex justify-content-around">
+                  <h1>$899</h1>
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-cart-shopping m-2"></i>Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-lg pb-3">
+                <img
+                  src="images/shoes/shoe-7.jpg"
+                  class="card-img-top"
+                  alt="shoe"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Nike</h1>
+                  <p class="card-text">
+                    This very extra sole of shoe.Sometiome we want a unique
+                    verient for shoe collection
+                  </p>
+                </div>
+                <div class="d-flex justify-content-around">
+                  <h1>$899</h1>
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-cart-shopping m-2"></i>Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- shoe sector 1 end  -->
+        <!-- shoe sector 2 start  -->
+        <div class="mt-5">
+          <div>
+            <h1>Casual Shoes</h1>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- shoe 1 -->
+            <div class="col">
+              <div class="card shadow-lg pb-3">
+                <img
+                  src="images/shoes/shoe-8.jpg"
+                  class="card-img-top"
+                  alt="shoe"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Nike</h1>
+                  <p class="card-text">
+                    This very extra sole of shoe.Sometiome we want a unique
+                    verient for shoe collection
+                  </p>
+                </div>
+                <div class="d-flex justify-content-around">
+                  <h1>$899</h1>
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-cart-shopping m-2"></i>Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-lg pb-3">
+                <img
+                  src="images/shoes/shoe-9.png"
+                  class="card-img-top"
+                  alt="shoe"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Nike</h1>
+                  <p class="card-text">
+                    This very extra sole of shoe.Sometiome we want a unique
+                    verient for shoe collection
+                  </p>
+                </div>
+                <div class="d-flex justify-content-around">
+                  <h1>$899</h1>
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-cart-shopping m-2"></i>Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-lg pb-3">
+                <img
+                  src="images/shoes/shoe-10.png"
+                  class="card-img-top"
+                  alt="shoe"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Nike</h1>
+                  <p class="card-text">
+                    This very extra sole of shoe.Sometiome we want a unique
+                    verient for shoe collection
+                  </p>
+                </div>
+                <div class="d-flex justify-content-around">
+                  <h1>$899</h1>
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-cart-shopping m-2"></i>Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- shoe sector 2 end  -->
+      </section>
+      <!-- products end -->
+      <section></section>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
